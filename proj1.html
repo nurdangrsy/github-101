@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     body {font-family: "Lato", sans-serif}
     .mySlides {display: none}
+
+    <script type="text/javascript">
+
+      function uyari(){
+          alert(document.cookie);
+      }
+      </script>
+
 </head>
 <body>
    <!-- Navbar -->
@@ -24,7 +32,8 @@
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">###<i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <input class="w3-bar-item w3-button" type="button" onclick="uyari()" value="Hakkımızda">
+       <!-- <a href="#" class="w3-bar-item w3-button">Hakkımda</a>   -->
         <a href="#" class="w3-bar-item w3-button">Extras</a>
         <a href="#" class="w3-bar-item w3-button">Media</a>
       </div>
